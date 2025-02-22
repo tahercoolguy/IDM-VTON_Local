@@ -1,6 +1,17 @@
 # IDM-VTON: Local Virtual Try-On
 
-This repository provides a **Python script (`run_app_locally.py`)** to run the **IDM-VTON** virtual try-on model locally. The script takes a **human image** and a **garment image**, processes them using deep learning models, and generates a virtual try-on result.
+This repository provides a **Python script (`run_app_locally.py`)** to run the **IDM-VTON** virtual try-on model locally. The script takes a **human image** and a **garment image** to generate a virtual try-on result.
+
+## 📌 Setup Instructions
+Before using the Python script or Jupyter Notebook, you must first clone the repository:
+
+```bash
+git clone https://huggingface.co/spaces/yisol/IDM-VTON
+```
+
+Once cloned, ensure your folder structure matches the following:
+![Folder Structure](assets/folder_structure.jpg)
+The saved_models folder is created automatically on running the jupyter notebook or script for the first time
 
 ## **📌 Features**
 - Run IDM-VTON **locally** using pre-trained models.
