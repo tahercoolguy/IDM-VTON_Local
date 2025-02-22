@@ -10,7 +10,8 @@ git clone https://huggingface.co/spaces/yisol/IDM-VTON
 ```
 
 Once cloned, ensure your folder structure matches the following:
-![Folder Structure](assets/folder_structure.jpg)
+
+![Folder Structure](assets/folder_structure.JPG)
 The saved_models folder is created automatically on running the jupyter notebook or script for the first time
 
 ## **📌 Features**
